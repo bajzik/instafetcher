@@ -1,0 +1,400 @@
+// Settings
+$mainColor: #FF4081;
+$secondaryColor: #ffeb3b;
+$tertiaryColor: #00bcd4;
+$mockupColor: #bdbdbd;
+
+// Breakpoint
+$smallSize: 770px;
+
+@mixin media-query($media) {
+	@if $media == small {
+		@media only screen and (max-width: $smallSize) {
+			@content;
+		}
+	}
+}
+
+@import "spinner";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+h1, h2, h3, h4, h5, h6 {
+	-ms-word-break: break-word;
+	word-break: break-word;
+}
+
+.jbif__content * {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.jbif__container {
+	width: 80%;
+	margin: auto;
+}
+
+.jbif__container--image {
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1490196078);
+}
+
+.jbif__container--image-text {
+	padding: 40px;
+	font-size: 15px;
+}
+
+.jbif__container--image img {
+	width: 100%;
+	height: auto;
+}
+
+.jbif__container--image-tags {
+	padding: 14px 40px;
+	background-color: #ec407a;
+}
+
+.jbif__container--image-tags-tag {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background: #ad1457;
+	color: white;
+	padding: 2px 8px;
+	font-size: 12px;
+	border-radius: 7px;
+}
+
+.jbif__container--image-title {
+	padding: 20px 40px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid rgba(236, 63, 120, 0.14901960784313725);
+}
+
+.jbif__container--grid-image {
+	display: flex;
+	background-size: cover !important;
+	background-position: center center !important;
+	position: relative;
+	cursor: pointer;
+	background-color: $mockupColor !important;
+	width: 100%;
+
+	@media (min-width: 48rem) {
+		width: 49%;
+		&:nth-child(odd) {
+			background: grey;
+		}
+	}
+
+	@media (min-width: 62rem) {
+		width: 23.5%;
+		&:not(:nth-child(4n)) {
+			background: grey;
+		}
+	}
+
+	&:before {
+		content: "";
+		float: left;
+		padding-top: 100%;
+	}
+
+	@include media-query(small) {
+		margin-bottom: 8px;
+	}
+
+	&:hover > .jbif__container--grid-image-hover {
+		display: block;
+	}
+}
+
+.jbif__container--grid-image-time {
+	font-size: 11px;
+	margin: 10px 0px;
+	color: white;
+}
+
+.jbif__container--grid-image-hover {
+	text-align: center;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 64, 129, 0.82);
+	padding: 20px 20px 0px 20px;
+	border: 2px solid $mainColor;
+}
+
+.jbif__container--grid-image-hover h2 {
+	color: white;
+	font-weight: bold;
+	font-size: 27px;
+	overflow: hidden;
+	word-break: break-all;
+	line-height: 37px;
+}
+
+.jbif__container--grid-image-text {
+	font-size: 16px;
+	line-height: 15px;
+	height: 33%;
+	overflow: hidden;
+	word-break: break-word;
+	color: white;
+}
+
+.jbif__content.jbif__container--user-detail.mobile .jbif__container--user-detail-image {
+	height: 430px;
+}
+
+.jbif__container--grid-image-icons {
+
+	color: #00bcd4;
+	font-weight: bold;
+	font-size: 19px;
+	position: absolute;
+	bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.63);
+	padding: 10px 0px;
+
+	.fa {
+		font-size: 19px;
+		vertical-align: middle;
+		margin-right: 10px;
+		margin-left: 10px;
+		color: #00bcd4;
+
+		&.fa-download {
+			color: #FFEB3B;
+		}
+
+		&.fa-camera {
+			color: #ef5382;
+		}
+	}
+
+}
+
+.jbif__container--detail {
+	margin-bottom: 25px;
+}
+
+.jbif__container--detail-image {
+	text-align: center;
+}
+
+.jbif__container--detail-user {
+	background-color: $mainColor;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 25px;
+	padding: 22px 60px !important;
+}
+
+.jbif__container--detail-mentions {
+	background-color: $mainColor;
+	color: white;
+	text-align: center;
+	padding: 22px 60px !important;
+
+	span.jbif__container--detail-mention {
+		font-weight: bold;
+	}
+}
+
+.jbif__container--detail-text {
+	background-color: $secondaryColor;
+	text-align: center;
+	padding: 22px 60px !important;
+
+	h2 {
+		color: black;
+		font-size: 16px;
+	}
+}
+
+.jbif__container--detail-tags {
+	background-color: $tertiaryColor;
+	text-align: center;
+	padding: 22px 60px !important;
+
+	span.jbif__container--detail-tag {
+		font-weight: bold;
+		color: white;
+		margin-right: 10px;
+	}
+}
+
+.jbif__button {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 7px 9px;
+	border-radius: 8px;
+	font-size: 11px;
+}
+
+.jbif__container--grid-image-profile {
+	position: absolute;
+	bottom: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.jbif__flatbutton {
+
+	background: $mainColor;
+	color: white;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	margin: 20px 0px !important;
+	display: inline-block;
+	width: auto;
+
+	&:hover {
+		font-weight: bold;
+		color: white;
+	}
+}
+
+.jbif__loadmore--wrapper {
+	text-align: center;
+}
+
+.jbif__loadmore--wrapper a .spinner {
+	vertical-align: middle;
+	margin-left: 9px;
+	display: none;
+}
+
+.jbif__loadmore--wrapper a, .jbif__container--user-detail-info, .jbif__container--detail {
+
+	& .spinner .sk-folding-cube {
+		width: 10px;
+		height: 10px;
+		margin: 6px auto;
+	}
+
+}
+
+.jbif__loadmore--wrapper a, .jbif__container--user-detail-info, .jbif__container--detail {
+
+	& .spinner .sk-folding-cube .sk-cube::before {
+		background: white;
+	}
+}
+
+.jbif__button-white {
+	color: $mainColor;
+	background: white;
+
+	&:hover {
+		color: $mainColor;
+		text-decoration: underline;
+	}
+}
+
+.jbif__container--user-detail-info, .jbif__container--user-detail-image {
+	height: 100%;
+}
+
+.jbif__container--user-detail-image {
+	background-size: cover;
+	background-position: center center;
+}
+
+.jbif__container--user-detail-info {
+	background: $mainColor;
+	color: white;
+	padding: 30px 30px !important;
+}
+
+.jbif__container--user-detail-info-key {
+	font-weight: bold;
+}
+
+.jbif__container--user-detail-images {
+
+	background: $secondaryColor;
+}
+
+.jbif__container--user-detail-pre-images {
+	background: $tertiaryColor;
+	margin-top: 15px;
+}
+
+.jbif__container--user-detail-pre-images h2 {
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 0px;
+	font-weight: bold;
+}
+
+.jbif__container--user-detail-info, .jbif__container--detail {
+
+	& .spinner {
+		display: none;
+	}
+}
+
+.jbif__badge {
+	background: $mainColor;
+	color: white;
+	padding: 2px 6px;
+	border-radius: 20px;
+	margin-left: 5px;
+}
+
+.jbif__tag {
+	display: inline-block;
+	margin-right: 2px;
+	background: white;
+	color: $mainColor;
+	padding: 8px 13px;
+	font-weight: bold;
+	margin-bottom: 7px;
+	border-radius: 8px;
+	font-size: 13px;
+}
+
+.jbif__tag-count {
+	background: $mainColor;
+	padding: 2px 7px;
+	color: white;
+	border-radius: 12px;
+}
+
+.spacer {
+	height: 30px;
+	width: 100%;
+	display: inline-block;
+}
+
+span.message {
+	font-size: 13px !important;
+	width: 100%;
+	display: block;
+	background: white;
+	color: $mainColor;
+	padding: 5px 10px;
+}
+
+.jbif__container--detail-mention a {
+	color: white;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+
+

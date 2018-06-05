@@ -1,0 +1,419 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: InstaFetcher by Jakub Bajzath\n"
+"POT-Creation-Date: 2018-06-04 13:00+0200\n"
+"PO-Revision-Date: 2018-06-04 13:03+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-KeywordsList: __;_x;_e;esc_attr_e;_n:1,2;_n_noop:1,2;_nx:1,2;"
+"_nx_noop:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: bower_components\n"
+"X-Poedit-SearchPathExcluded-2: acf-settings\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+"X-Poedit-SearchPathExcluded-4: i18n\n"
+"X-Poedit-SearchPathExcluded-5: css\n"
+"X-Poedit-SearchPathExcluded-6: js\n"
+"X-Poedit-SearchPathExcluded-7: vendor\n"
+"X-Poedit-SearchPathExcluded-8: dist\n"
+
+#: lib/Instafetcher_ACFD.php:42
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/Instafetcher_ACFD.php:42
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/Instafetcher_ACFD.php:42
+#: packaged/jb-instafetcher/lib/Instafetcher_ACFD.php:42
+msgid "Parser settings"
+msgstr "Nastavenie parseru"
+
+#: lib/Instafetcher_ACFD.php:44
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/Instafetcher_ACFD.php:44
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/Instafetcher_ACFD.php:44
+#: packaged/jb-instafetcher/lib/Instafetcher_ACFD.php:44
+msgid "Tags to parse"
+msgstr "Tagy na parsovanie"
+
+#: lib/Instafetcher_ACFD.php:45
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/Instafetcher_ACFD.php:45
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/Instafetcher_ACFD.php:45
+#: packaged/jb-instafetcher/lib/Instafetcher_ACFD.php:45
+msgid "Tag"
+msgstr "Tag"
+
+#: lib/Instafetcher_ACFD.php:48
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/Instafetcher_ACFD.php:48
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/Instafetcher_ACFD.php:48
+#: packaged/jb-instafetcher/lib/Instafetcher_ACFD.php:48
+msgid "Photo detail page"
+msgstr "Stránka detailu fotografie"
+
+#: lib/Instafetcher_ACFD.php:55
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/Instafetcher_ACFD.php:55
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/Instafetcher_ACFD.php:55
+#: packaged/jb-instafetcher/lib/Instafetcher_ACFD.php:55
+msgid "User profile page"
+msgstr "Stránka detailu profilu"
+
+#: lib/Instafetcher_ACFD.php:71 lib/Instafetcher_ACFD.php:72
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/Instafetcher_ACFD.php:71
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/Instafetcher_ACFD.php:72
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/Instafetcher_ACFD.php:71
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/Instafetcher_ACFD.php:72
+#: packaged/jb-instafetcher/lib/Instafetcher_ACFD.php:71
+#: packaged/jb-instafetcher/lib/Instafetcher_ACFD.php:72
+msgid "Instafetcher Settings"
+msgstr "Nastavenie Instafetcher"
+
+#: lib/Instafetcher_Cron.php:33
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/Instafetcher_Cron.php:33
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/Instafetcher_Cron.php:33
+#: packaged/jb-instafetcher/lib/Instafetcher_Cron.php:33
+msgid "Every 30 mins"
+msgstr "Každých 30 minút"
+
+#: lib/Instafetcher_Cron.php:38
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/Instafetcher_Cron.php:38
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/Instafetcher_Cron.php:38
+#: packaged/jb-instafetcher/lib/Instafetcher_Cron.php:38
+msgid "Every 15 mins"
+msgstr "Každých 15 minút"
+
+#: lib/api/Instafetcher_REST.php:103
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/api/Instafetcher_REST.php:103
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/api/Instafetcher_REST.php:103
+msgid "User data loaded, page will be reloaded after 3 seconds"
+msgstr "Používateľské dáta boli načítané, stránka sa obnoví o 3 sekundy"
+
+#: lib/api/Instafetcher_REST.php:109
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/api/Instafetcher_REST.php:109
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/api/Instafetcher_REST.php:109
+msgid "Unable to fetch data at this moment"
+msgstr "Momentálne nie je možné načítať používateľské dáta"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:69
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:69
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:69
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:71
+msgid "More photos"
+msgstr "Viac fotiek"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:159
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:159
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:159
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:161
+msgid "We're currently trying to fetch username. "
+msgstr "Aktuálne zisťujeme používateľské dáta. "
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:163
+#: lib/shortcode/Instafetcher_Shortcodes.php:253
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:163
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:253
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:163
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:253
+msgid "Try to fetch username"
+msgstr "Zistiť používateľské dáta"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:176
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:176
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:176
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:166
+msgid "Mentioned in this photo"
+msgstr "Označené osoby v tejto fotke"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:193
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:193
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:193
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:178
+msgid "This photo doesn'nt have any description"
+msgstr "Táto fotka nemá popis"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:204
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:204
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:204
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:189
+msgid "This photo doesn'nt have any tags"
+msgstr "Táto fotka nemá žiadne tagy"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:222
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:222
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:222
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:207
+msgid "We're trying to fetch username"
+msgstr "Aktuálne zisťujeme používateľské dáta"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:248
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:248
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:248
+msgid "IG Profile"
+msgstr "IG Profil"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:265
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:265
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:265
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:232
+msgid "Full name"
+msgstr "Celé meno"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:267
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:267
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:267
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:234
+msgid "Bio"
+msgstr "Popis"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:269
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:269
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:269
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:236
+msgid "Link"
+msgstr "Odkaz"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:274
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:274
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:274
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:241
+msgid "Followers count"
+msgstr "Počet sledovateľov"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:276
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:276
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:276
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:243
+msgid "Following count"
+msgstr "Počet sledujúcich"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:279
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:279
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:279
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:246
+msgid "Total photos"
+msgstr "Celkovo fotiek"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:282
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:282
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:282
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:249
+msgid "Most used tags\t"
+msgstr "Najpoužívanejšie tagy\t"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:298
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:298
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:298
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:265
+#, php-format
+msgid "All images from %s"
+msgstr "Všetky fotky od používateľa %s"
+
+#: lib/shortcode/Instafetcher_Shortcodes.php:300
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/lib/shortcode/Instafetcher_Shortcodes.php:300
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/lib/shortcode/Instafetcher_Shortcodes.php:300
+#: packaged/jb-instafetcher/lib/shortcode/Instafetcher_Shortcodes.php:267
+msgid "All images from this user"
+msgstr "Všetky fotky od tohto používateľa"
+
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-44/page_templates/image-grid.php:34
+#: packaged/jb-instafetcher-1.0.0-2018-06-04_11-55/page_templates/image-grid.php:34
+#: packaged/jb-instafetcher/page_templates/image-grid.php:25
+#: page_templates/image-grid.php:34
+msgid "Show Profile"
+msgstr "Zobraziť profil"
+
+#~ msgid "GDPR Addon Settings"
+#~ msgstr "Nastavenia GDPR Addonu"
+
+#~ msgid "Download data form"
+#~ msgstr "Formulár “Vyžiadanie osobných údajov”"
+
+#~ msgid "Delete user form"
+#~ msgstr "Formulár “Zmazanie užívateľa”"
+
+#~ msgid "Please agree with our terms."
+#~ msgstr "Je potrebné súhlasiť s podmienkami používania webu."
+
+#~ msgid "I agree to the <a href=\"%s\">terms of use</a> of the site"
+#~ msgstr "Súhlasím s <a href=\"%s\">podmienkami používania</a> stránky"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Ochrana osobných údajov"
+
+#~ msgid "I agree with <a href=\"%s\">terms</a> for this website"
+#~ msgstr ""
+#~ "Súhlasím so spracovaním mojich osobných údajov v rozsahu a na účely, "
+#~ "ktoré sú uvedené v sekcií <a href=\"%s\">osobné údaje</a>"
+
+#~ msgid ""
+#~ "If you revoke approval with our terms, we will not be able to serve you "
+#~ "functions that are needed to use website as logged user. For this "
+#~ "reasons, you will be logged out from our website. But dont worry, you can "
+#~ "approve this terms anytime in future."
+#~ msgstr ""
+#~ "Ak zrušíte potvrdenie o súhlase so spracovaním vašich osobných údajov, "
+#~ "nebude možné doručiť vám funkcie, ktoré sú potrebné pre používanie "
+#~ "webstránky ako prihláseného používateľa. Ale nemajte strach, kedykoľvek "
+#~ "nám toto povolenie môžete udeliť znovu."
+
+#~ msgid "Download data"
+#~ msgstr "Vyžiadať výpis osobných údajov"
+
+#~ msgid "Delete user"
+#~ msgstr "Zmazať používateľa"
+
+#~ msgid "Privacy policy is changing"
+#~ msgstr "Politika osobných údajov sa mení"
+
+#~ msgid ""
+#~ "Our privacy policy is changing, please confirm that you are approving our "
+#~ "terms of usage"
+#~ msgstr ""
+#~ "Politika osobných údajov sa medzi časom zmenila. Dajte nám prosím súhlas "
+#~ "so spracovaním vašich osobných údajov."
+
+#~ msgid "I agree with <a href=\"%s\">privacy policy</a> of this site"
+#~ msgstr ""
+#~ "Súhlasím so spracovaním mojich osobných údajov v rozsahu a na účely, "
+#~ "ktoré sú uvedené v sekcii <a href=\"%s\">Osobné údaje</a>"
+
+#~ msgid "Save"
+#~ msgstr "Uložiť"
+
+#~ msgid "Not agree ?"
+#~ msgstr "Nesúhlasíte ?"
+
+#~ msgid "It's ok. Here are some actions that you can make"
+#~ msgstr ""
+#~ "To je v poriadku. Ak nám však neudelíte potvrdenie o súhlase s "
+#~ "podmienkami používania webu, nebude možné doručiť vám funkcie, ktoré sú "
+#~ "potrebné pre používanie webstránky ako prihláseného používateľa. Teraz sa "
+#~ "môžete odhlásiť - vaše údaje sa ešte nevymažú a pri ďaľšom prihlásení nám "
+#~ "môžete udeliť súhlas s ich používaním naďalej. Taktiež môžete požiadať o "
+#~ "informáciu, aké údaje o vás máme alebo rovno požiadať o ich vymazanie"
+
+#~ msgid "Logout"
+#~ msgstr "Odhlásiť"
+
+#~ msgid "Request data"
+#~ msgstr "Vyžiadať výpis osobných údajov"
+
+#~ msgid "Request profile delete"
+#~ msgstr "Vyžiadať zmazanie profilu"
+
+#~ msgid "Please mark privacy policy approve as checked"
+#~ msgstr "Označte prosím súhlas s podmienkami webu"
+
+#~ msgid "Thank you! This popup will dissapear after few seconds."
+#~ msgstr "Ďakujeme! Tento popup zmizne o pár sekúnd."
+
+#~ msgid "%s commented on %s"
+#~ msgstr "%s komentoval %s"
+
+#~ msgid "Comment"
+#~ msgstr "Komentár"
+
+#~ msgid "Today"
+#~ msgstr "Dnes"
+
+#~ msgid "Yesterday"
+#~ msgstr "Včera"
+
+#~ msgid "%s added post"
+#~ msgstr "%s pridal článok"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "%s - new comment"
+#~ msgstr "%s - nový komentár"
+
+#~ msgid "%s added new post"
+#~ msgstr "%s pridal článok"
+
+#~ msgid "Photos"
+#~ msgstr "Fotografie"
+
+#~ msgid "Photo"
+#~ msgstr "Fotografia"
+
+#~ msgid "Add New Photo"
+#~ msgstr "Pridať fotografiu"
+
+#~ msgid "Use as featured image"
+#~ msgstr "Nastaviť ako prezentačný obrázok"
+
+#~ msgid "%s Photo"
+#~ msgid_plural "%s Photos"
+#~ msgstr[0] "%s Fotografia"
+#~ msgstr[1] "%s Fotografie"
+#~ msgstr[2] "%s Fotografií"
+
+#~ msgid "%s View"
+#~ msgid_plural "%s Views"
+#~ msgstr[0] "%s Zobrazenie"
+#~ msgstr[1] "%s Zobrazenia"
+#~ msgstr[2] "%s Zobrazení"
+
+#~ msgid "Do you have interesting photo? Share it!."
+#~ msgstr "Máte zaujímavú fotografiu? Podeľte sa s ostatnými vo fotománii."
+
+#~ msgid "Register"
+#~ msgstr "Registrácia"
+
+#~ msgid "This feature is for logged in users only"
+#~ msgstr "Táto funkcia je prístupná iba prihláseným používateľom"
+
+#~ msgid "%s from device %s"
+#~ msgstr "%s zo zariadenia %s"
+
+#~ msgid "Missing image category."
+#~ msgstr "Chýba kategória fotografie."
+
+#~ msgid "Incorrect image category. Please select one from the list."
+#~ msgstr ""
+#~ "Nesprávna kategória fotografie. Vyber niektorú z ponúknutých možností."
+
+#~ msgid "Missing device."
+#~ msgstr "Chýba zariadenie."
+
+#~ msgid "Incorrect device. Please select one from the list."
+#~ msgstr "Nesprávne zariadenie. Vyber niektorú z ponúknutých možností."
+
+#~ msgid "Like feature is available for logged users only"
+#~ msgstr "Táto funkcia je dostupná iba prihláseným používateľom"
+
+#~ msgid "Photo was succesfully liked"
+#~ msgstr "Fotografia bola úspešne like-nutá"
+
+#~ msgid ""
+#~ "Only logged in user are allowed to upload photos. Please login to "
+#~ "continue to your upload."
+#~ msgstr ""
+#~ "Fotografie môžu pridávať len prihlásení používatelia. Ak chcete "
+#~ "pokračovať v nahrávaní, prihláste sa."
+
+#~ msgid "Your photo has been successfully uploaded."
+#~ msgstr "Fotografia bola úspešne nahraná."
+
+#~ msgid "Check it out here:"
+#~ msgstr "Zobraziť fotografiu:"
+
+#~ msgid "Category"
+#~ msgstr "Kategória"
+
+#~ msgid "select photo category"
+#~ msgstr "vyber kategóriu fotografie"
+
+#~ msgid "Device"
+#~ msgstr "Zariadenie"
+
+#~ msgid "select your device"
+#~ msgstr "vyber svoje zariadenie"
+
+#~ msgid "Keywords"
+#~ msgstr "Klúčové slová"

@@ -1,0 +1,21 @@
+{
+  "name": "jb-instafetcher",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "jakub.bajzath <bajzath.jakub@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flexboxgrid": "^6.3.2",
+    "components-font-awesome": "^5.0.6"
+  }
+}
